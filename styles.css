@@ -224,9 +224,8 @@ nav {
   display: flex;
   align-items: center;
   gap: 48px;
-  min-height: 90vh;
-  padding-top: var(--header-h);
-  padding-bottom: 48px;
+  padding-top: calc(var(--header-h) + 64px);
+  padding-bottom: 64px;
 }
 
 .hero-text {
